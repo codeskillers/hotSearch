@@ -1,0 +1,38 @@
+.HotSearch
+    width 100%
+    height 50rem
+    overflow hidden
+    font-size 0.92rem
+    .SearchWrapper
+        width 100%
+        height 160rem
+        .HotSearch-item
+            display flex
+            flex-direction row
+            align-content center
+            justify-content flex-start
+            margin-left 1rem
+            margin-top 1.5rem
+            position relative
+            &:before
+                width: 50rem;
+                height: 2.1rem;
+                content: "";
+                display: block;
+                position: absolute;
+                top: 2rem;
+                left: -2rem;
+            .item-kein
+                margin-left 2.5rem
+                text-align left
+                .item-index
+                    margin-left .8rem
+                    color #9B9B9B
+                .item-keyword
+                    color #4D4D4D
+            .item-rank
+                color #EEA356
+            .item-hot
+                position absolute
+                top -2.8rem
+                left 19.5rem
